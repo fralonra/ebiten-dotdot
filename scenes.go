@@ -155,6 +155,7 @@ func (m *SceneGame) Update() {
 }
 
 func (m *SceneGame) Start() {
+	m.capturedCount = 0
 	m.timer = &GameTimer{
 		done:   make(chan bool),
 		ticker: time.NewTicker(1 * time.Second),
