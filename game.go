@@ -10,27 +10,8 @@ type Game struct {
 	core *dotdot.DotDot
 }
 
-func (g *Game) draw(screen *ebiten.Image) {
-	s := scene.Scene()
-	if s != nil {
-		s.Draw(screen)
-	}
-}
-
-func (g *Game) handle() {
-	s := scene.Scene()
-	if s != nil {
-		s.Update()
-	}
-}
-
 func (g *Game) update(screen *ebiten.Image) error {
-	g.handle()
-	if ebiten.IsDrawingSkipped() {
-		return nil
-	}
-	g.draw(screen)
-	return nil
+	return scene.Update(screen)
 }
 
 func NewGame() (g *Game) {

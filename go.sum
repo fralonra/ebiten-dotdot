@@ -3,6 +3,8 @@ github.com/fralonra/dotdot v0.0.0-20191219103331-30934dc4483e h1:wxFkrcz2uwV8ucD
 github.com/fralonra/dotdot v0.0.0-20191219103331-30934dc4483e/go.mod h1:yl5MFh7BjmC8AGKvxf+H/DBAPuvSmAtLl6P3BwliZoQ=
 github.com/fralonra/ebiten-scene v0.1.0 h1:7WZSgu+sNopdx1WmNcOAY0R5GS8bQ2Am5vXpqcnFrqg=
 github.com/fralonra/ebiten-scene v0.1.0/go.mod h1:epATmXdoR62mmT9Axt37yCJ3wIrEZKAcSHWEBDqeKXg=
+github.com/fralonra/ebiten-scene v0.2.0 h1:wAXXmH7K6SJQ5y78peeF9xvTyuiQC1z3zuTBnloxNU8=
+github.com/fralonra/ebiten-scene v0.2.0/go.mod h1:epATmXdoR62mmT9Axt37yCJ3wIrEZKAcSHWEBDqeKXg=
 github.com/go-gl/glfw v0.0.0-20190409004039-e6da0acd62b1 h1:QbL/5oDUmRBzO9/Z7Seo6zf912W/a6Sr4Eu0G/3Jho0=
 github.com/go-gl/glfw v0.0.0-20190409004039-e6da0acd62b1/go.mod h1:vR7hzQXu2zJy9AVAgeJqvqgH9Q5CA+iKCZ2gyEVpxRU=
 github.com/gofrs/flock v0.7.1/go.mod h1:F1TvTiK9OcQqauNUHlbJvyl9Qa1QvF/gOUDKA14jxHU=
